@@ -1,0 +1,69 @@
+body {
+  margin: 0;
+  background-color: coral;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  
+}
+
+.card {
+  background-color: rgb(0, 78, 0);
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.5);
+  position: relative;
+   size: auto;
+   max-height: 427px;
+  
+}
+
+.card-img{
+  background-size: url('https://cdn.dribbble.com/users/925716/screenshots/3333720/attachments/722375/night.png');
+  size: auto;
+  max-height: 427px;
+  position: relative;
+  
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.title {
+  color:rgb(255, 255, 255);
+}
+#container {
+  size: auto;
+  position: relative;
+  max-height: 427px;
+}
+
+#image {
+  size: auto;
+  position: absolute;
+  left: 0;
+  min-height: 427px;
+
+}
+#text {
+  position:absolute;
+  color: white;
+  font-size: 4vh;
+  font-weight: bold;
+  top: 100px;
+}
+
+#text2 {
+  text-align: justify;
+  position:absolute;
+  text-justify: auto;
+  color: white;
+  font-size:smaller;
+  top:130px;
+}
+
+#output {
+  text-align: left;
+}
